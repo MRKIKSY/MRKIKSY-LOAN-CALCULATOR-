@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loan Calculator</title>
+    <title>MR KIKSY LOAN CALCULATOR</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Loan Calculator</h1>
+        <h1>MR KIKSY LOAN CALCULATOR</h1>
         <p>Loan Amount $
-            <input onchange="calculateLoan()"  class="input" type="number" id="loan-amount" min="1" max="500000" value="">
+            <input onchange="calculateLoan()" class="input" type="number" id="loan-amount" min="1" max="500000" value="">
         </p>
         <p>Interest Rate %
             <input onchange="calculateLoan()" class="input" type="number" id="interest-rate" min="0" max="100" value="" step=".1">
@@ -19,13 +19,10 @@
         <p>Months to pay
             <input onchange="calculateLoan()" class="input" type="number" id="months-to-pay" min="6" max="48" value="">
         </p>
-        <button  role=""  id="payment"> Calculate Monthly Payment:</button>
-    <br>
-       
+        <button id="payment">Calculate Monthly Payment:</button>
+        <br>
     </div>
-
-   
 
     <script src="index.js"></script>
 </body>
-</html> 
+</html>
